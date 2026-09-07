@@ -5,7 +5,7 @@ about:
   head: 2d0a3a8
   archived: true
   latestVersion: "0.8.2"
-  collectedAt: 2026-09-07T05:58:55Z
+  collectedAt: 2026-09-07T18:36:26Z
 timeline:
   created: 2011-04-11
   lastCommit: 2021-11-12
@@ -81,7 +81,7 @@ total:
   commit: 304
 ---
 path: /home/runner/.x-repo/github.com/unoconv/unoconv
-collectedAt: 2026-09-07T05:58:56Z
+collectedAt: 2026-09-07T18:36:27Z
 loc:
   Python:
     code: 1199
@@ -201,7 +201,7 @@ checks:
       - 'Warn: 0 commits out of 25 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:58:57+00:00
+  collectedAt: 2026-09-07T18:36:28+00:00
   platform:
     darwin/arm64:
       name:  null
