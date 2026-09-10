@@ -7,7 +7,7 @@ about:
   latestVersion: "0.8.2"
   latestRelease: "0.8.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:29:17Z
+  collectedAt: 2026-09-10T23:20:02Z
 timeline:
   created: 2011-04-11
   lastCommit: 2021-11-12
@@ -85,7 +85,7 @@ total:
   commit: 304
 ---
 path: /home/runner/.x-repo/github.com/unoconv/unoconv
-collectedAt: 2026-09-10T20:29:18Z
+collectedAt: 2026-09-10T23:20:03Z
 loc:
   Python:
     code: 1199
