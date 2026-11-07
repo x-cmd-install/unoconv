@@ -1,3 +1,60 @@
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-1.1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+  categories:
+    - universe/text
+- repo: wikidata
+  srcname: Q28975535
+  visiblename: unoconv
+  version: 0.8.2
+  origversion: null
+  status: outdated
+  summary: free software
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-1.1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+  categories:
+    - universe/text
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-2
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+  categories:
+    - universe/text
+- repo: nix_stable_25_05
+  srcname: unoconv
+  visiblename: unoconv
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Convert between any document format supported by LibreOffice/OpenOffice
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - GPL-2.0-only
 - repo: aosc
   srcname: app-doc/unoconv
   binname: unoconv
@@ -328,28 +385,6 @@
     - GPLv2
   categories:
     - System/Base
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: unoconv
-  binname: unoconv
-  visiblename: unoconv
-  version: "0.9"
-  origversion: 0.9-2
-  status: newest
-  summary: Libreoffice-based document converter
-  licenses:
-    - GPL2
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: unoconv
-  binname: unoconv
-  visiblename: unoconv
-  version: "0.9"
-  origversion: 0.9-2
-  status: newest
-  summary: Libreoffice-based document converter
-  licenses:
-    - GPL2
 - repo: nix_stable_24_05
   srcname: unoconv
   visiblename: unoconv
@@ -362,17 +397,6 @@
   licenses:
     - GPL-2.0-only
 - repo: nix_stable_24_11
-  srcname: unoconv
-  visiblename: unoconv
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Convert between any document format supported by LibreOffice/OpenOffice
-  maintainers:
-    - bjorn.forsman@gmail.com
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_05
   srcname: unoconv
   visiblename: unoconv
   version: 0.9.0
@@ -741,45 +765,6 @@
     - bernat@debian.org
   categories:
     - universe/text
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-1.1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-  categories:
-    - universe/text
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-1.1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-  categories:
-    - universe/text
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-2
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-  categories:
-    - universe/text
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: unoconv
@@ -858,10 +843,3 @@
     - antonio@antoniomalcolm.com
   licenses:
     - GPL-2.0-only
-- repo: wikidata
-  srcname: Q28975535
-  visiblename: unoconv
-  version: 0.8.2
-  origversion: null
-  status: outdated
-  summary: free software
