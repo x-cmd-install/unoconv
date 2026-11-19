@@ -1,3 +1,16 @@
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-2ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/text
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: unoconv
@@ -11,13 +24,20 @@
     - bernat@debian.org
   categories:
     - universe/text
-- repo: wikidata
-  srcname: Q28975535
+- repo: fedora_41
+  subrepo: release
+  srcname: unoconv
+  binnames:
+    - unoconv
   visiblename: unoconv
-  version: 0.8.2
-  origversion: null
-  status: outdated
-  summary: free software
+  version: 0.9.0
+  origversion: 0.9.0-15.fc41
+  status: newest
+  summary: A tool to convert documents from/to any format supported by LibreOffice
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: unoconv
@@ -31,30 +51,6 @@
     - bernat@debian.org
   categories:
     - universe/text
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-2
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-  categories:
-    - universe/text
-- repo: nix_stable_25_05
-  srcname: unoconv
-  visiblename: unoconv
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Convert between any document format supported by LibreOffice/OpenOffice
-  maintainers:
-    - bjorn.forsman@gmail.com
-  licenses:
-    - GPL-2.0-only
 - repo: aosc
   srcname: app-doc/unoconv
   binname: unoconv
@@ -206,20 +202,6 @@
     - GPL-2.0-only
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: 0.9.0
-  origversion: 0.9.0-15.fc41
-  status: newest
-  summary: A tool to convert documents from/to any format supported by LibreOffice
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
 - repo: fedora_42
   subrepo: release
   srcname: unoconv
@@ -256,6 +238,20 @@
   visiblename: unoconv
   version: 0.9.0
   origversion: 0.9.0-18.fc44
+  status: newest
+  summary: A tool to convert documents from/to any format supported by LibreOffice
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: 0.9.0
+  origversion: 0.9.0-19.fc45
   status: newest
   summary: A tool to convert documents from/to any format supported by LibreOffice
   licenses:
@@ -329,20 +325,6 @@
     - GPL-2
   categories:
     - app-office
-- repo: mageia_9
-  subrepo: core/release
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: 0.9.0
-  origversion: 0.9.0-3.mga9
-  status: newest
-  summary: Tool to convert between any document format supported by LibreOffice
-  licenses:
-    - GPLv2
-  categories:
-    - System/Base
 - repo: mageia_10
   subrepo: core/release
   srcname: unoconv
@@ -357,6 +339,18 @@
     - GPLv2
   categories:
     - System/Base
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: unoconv
+  visiblename: unoconv
+  version: 0.9.0
+  origversion: 0.9.0-bp156.3.1
+  status: newest
+  summary: Tool to convert between any document format supported by LibreOffice
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Productivity/File utilities
 - repo: mageia_10
   subrepo: core/updates
   srcname: unoconv
@@ -397,6 +391,17 @@
   licenses:
     - GPL-2.0-only
 - repo: nix_stable_24_11
+  srcname: unoconv
+  visiblename: unoconv
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Convert between any document format supported by LibreOffice/OpenOffice
+  maintainers:
+    - bjorn.forsman@gmail.com
+  licenses:
+    - GPL-2.0-only
+- repo: nix_stable_25_05
   srcname: unoconv
   visiblename: unoconv
   version: 0.9.0
@@ -468,6 +473,19 @@
     - GPL
   categories:
     - Applications/Publishing
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-2ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/text
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: unoconv
@@ -522,18 +540,6 @@
   visiblename: unoconv
   version: 0.9.0
   origversion: 0.9.0-bp155.2.10
-  status: newest
-  summary: Tool to convert between any document format supported by LibreOffice
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Productivity/File utilities
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: unoconv
-  visiblename: unoconv
-  version: 0.9.0
-  origversion: 0.9.0-bp156.3.1
   status: newest
   summary: Tool to convert between any document format supported by LibreOffice
   licenses:
@@ -765,6 +771,19 @@
     - bernat@debian.org
   categories:
     - universe/text
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: unoconv
+  binnames:
+    - unoconv
+  visiblename: unoconv
+  version: "0.7"
+  origversion: 0.7-2
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+  categories:
+    - universe/text
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: unoconv
@@ -780,32 +799,6 @@
     - universe/text
 - repo: ubuntu_24_04
   subrepo: noble/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-2ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/text
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: unoconv
-  binnames:
-    - unoconv
-  visiblename: unoconv
-  version: "0.7"
-  origversion: 0.7-2ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/text
-- repo: ubuntu_25_10
-  subrepo: questing/universe
   srcname: unoconv
   binnames:
     - unoconv
@@ -843,3 +836,10 @@
     - antonio@antoniomalcolm.com
   licenses:
     - GPL-2.0-only
+- repo: wikidata
+  srcname: Q28975535
+  visiblename: unoconv
+  version: 0.8.2
+  origversion: null
+  status: outdated
+  summary: free software
